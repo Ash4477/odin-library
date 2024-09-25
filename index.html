@@ -7,8 +7,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Odin Library</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/d2f89adc8d.js" crossorigin="anonymous" defer></script>
 </head>
 <body>
-    
+    <header>
+        <h1>library</h1>
+        <button onclick="alert('to be implemented in future !')">Log in</button>
+    </header>
+    <main>
+        <button><h2>+ Add book</h2></button>
+        <dialog>
+            <form>
+                <h3>Add new book</h3>
+                <input type="text" placeholder="Title" id="title" required>
+                <input type="text" placeholder="Author" id="author" required>
+                <input type="number" placeholder="Pages" id="pages" required>
+                <div class="checkbox-div"><label>Have you read it?</label> <input type="checkbox" id="read" checked></div>
+                <input type="submit" value="Submit">
+            </form>
+        </dialog>
+        <div class="books-container">
+        </div>
+    </main>
+    <footer>
+        Copyright © 2024 adil-feroze <a href="https://github.com/Ash4477" class="spin" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+    </footer>
 </body>
 </html>
