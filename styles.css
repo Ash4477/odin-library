@@ -181,10 +181,9 @@ footer {
   justify-content: center;
   gap: 5px;
   font-size: 1rem;
+  margin-top: 3rem;
   margin-bottom: 1rem;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   text-align: center;
 }
 
